@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CRM.Web.Migrations
 {
     [DbContext(typeof(CRMDbContext))]
-    [Migration("20260308081058_OnlineCRMDB")]
-    partial class OnlineCRMDB
+    [Migration("20260328065131_CreateCRM_DB")]
+    partial class CreateCRM_DB
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

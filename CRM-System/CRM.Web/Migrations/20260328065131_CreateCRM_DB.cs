@@ -5,7 +5,7 @@
 namespace CRM.Web.Migrations
 {
     /// <inheritdoc />
-    public partial class OnlineCRMDB : Migration
+    public partial class CreateCRM_DB : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
