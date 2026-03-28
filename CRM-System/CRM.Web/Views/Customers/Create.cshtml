@@ -1,0 +1,28 @@
+﻿@model Customer
+
+<h2>New Customer</h2>
+
+<form asp-action="Create">
+    
+    <div class="form-floating mb-3">
+        <input asp-for="UserName" placeholder="User Name" />
+    </div>
+
+    <div class="input-group mb-3">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" />
+    </div>
+
+    <div class="input-group mb-3">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" />
+    </div>
+
+    <div class="input-group mb-3">
+        <label asp-for="Balance"></label>
+        <input asp-for="Balance" inputmode="numeric" />
+    </div>
+
+    <button type="submit" class="btn-success">Add</button>
+
+</form>

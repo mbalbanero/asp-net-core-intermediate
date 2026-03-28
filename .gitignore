@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CRM-System/MyConsoleApp/obj
+/CRM-System/.vs/CRM-System/FileContentIndex/a9fe8c74-f20a-4a60-ae83-2f1e82ae62de.vsidx
+/CRM-System/.vs/CRM-System/CopilotIndices/17.14.1577.30250/CodeChunks.db
+/CRM-System/.vs/CRM-System/CopilotIndices/17.14.1577.30250/CodeChunks.db-shm
+/CRM-System/.vs/CRM-System/CopilotIndices/17.14.1577.30250/CodeChunks.db-wal
+/CRM-System/.vs/CRM-System/CopilotIndices/17.14.1577.30250/SemanticSymbols.db
+/CRM-System/.vs/CRM-System/CopilotIndices/17.14.1577.30250/SemanticSymbols.db-shm
+/CRM-System/.vs/CRM-System/CopilotIndices/17.14.1577.30250/SemanticSymbols.db-wal
+/CRM-System/.vs/CRM-System
+/CRM-System/CRM.Web/bin/Debug/net8.0
+/CRM-System/CRM.Web/obj/Debug/net8.0
+/CRM-System/CRM.Web/bin/Release/net8.0
+/CRM-System/CRM.Web/obj/Release/net8.0
+/CRM-System/CRM.Web/Properties/PublishProfiles
+/CRM-System/.vs/CRM-System/v17/.suo

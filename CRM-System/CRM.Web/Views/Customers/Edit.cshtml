@@ -1,0 +1,28 @@
+﻿@model Customer
+
+<h2>Update Customer</h2>
+
+<form asp-action="Edit">
+    <div>
+        <label>User Name</label>
+        <input asp-for="UserName" value="@ViewData["UserName"]" readonly />
+    </div>
+
+    <div>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" value="@ViewData["FirstName"]"/>
+    </div>
+
+    <div>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" value="@ViewData["LastName"]" />
+    </div>
+
+    <div>
+        <label asp-for="Balance"></label>
+        <input asp-for="Balance" inputmode="numeric" value="@ViewData["Balance"]" />
+    </div>
+
+    <button type="submit" class="btn-success">Update</button>
+
+</form>
